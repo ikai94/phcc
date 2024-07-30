@@ -1,0 +1,32 @@
+.MainAdvantages {
+  background-color: var(--inverted-bg-color);
+  z-index: -10;
+  position: relative;
+
+
+  .MainAdvantagesWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16rem;
+
+    @media (max-width: 1240px) {
+      align-items: center;
+      padding-left: 0;
+    }
+  }
+
+  .MainAdvantagesTitle {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--primary-text-color);
+    padding-bottom: 2.5rem;
+    padding-top: 3.5rem;
+
+    @media (max-width: 640px) {
+      text-align: center;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  }
+}

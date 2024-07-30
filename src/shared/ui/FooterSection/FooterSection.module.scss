@@ -1,0 +1,15 @@
+.FooterSection {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--primary-text-color);
+}
+
+.FooterSection:not(:first-child) {
+  padding-left: 3.75rem;
+
+  @media (max-width: 880px) {
+    padding-left: 0;
+    padding-top: 1.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "ESNext",
+      "target": "ES5",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "strict": true,
+      "moduleResolution": "node",
+      // Для абсолютного импорта
+      "baseUrl": "./src",
+      "paths": {
+          "@/*": ["./src/*"]
+      },
+      "allowSyntheticDefaultImports" : true,
+      "esModuleInterop" : true
+    },
+    "ts-node": {
+        "compilerOptions": {
+          "module": "CommonJS"
+        }
+      },
+      "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ]
+  }

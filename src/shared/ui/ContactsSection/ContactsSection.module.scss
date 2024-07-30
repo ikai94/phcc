@@ -1,0 +1,17 @@
+.ContactsSection {
+  display: flex;
+
+  &__link {
+    margin-left: 0.63rem;
+    font-weight: 300;
+    font-size: 1.13rem;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--primary-text-color);
+  }
+
+  &__img {
+    width: 18px;
+    height: 18px;
+  }
+}

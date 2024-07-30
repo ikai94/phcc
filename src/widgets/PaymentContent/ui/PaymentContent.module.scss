@@ -1,0 +1,46 @@
+.PaymentContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 6rem;
+
+  @media (max-width: 770px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  @media (max-width: 540px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--primary-text-color);
+    margin-bottom: 4.19rem;
+
+    @media (max-width: 440px) {
+      text-align: center;
+    }
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 1.5rem;
+
+    @media (max-width: 770px) {
+      grid-template-columns: repeat(2,1fr);
+      grid-row-gap: 1.5rem;
+    }
+
+    @media (max-width: 500px) {
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+}

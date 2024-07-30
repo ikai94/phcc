@@ -1,0 +1,1 @@
+export {WhySectionDescriptionIcon} from './WhySectionDescriptionIcon'

@@ -1,0 +1,145 @@
+.ProjectsContentTitle {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 1.75rem;
+  padding-top: 2rem;
+
+  @media (max-width: 1240px) {
+    text-align: center;
+  }
+  @media (max-width: 640px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.ProjectContent{
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  @media (max-width: 1240px) {
+    flex-direction: column;
+  }
+
+  &__leftImg1 {
+    position: relative;
+    width: 682px;
+    min-width: 682px;
+    min-height: 414px;
+    height: 414px;
+    z-index: 20;
+
+    @media (max-width: 900px) {
+      min-width: 500px;
+      min-height: 298px;
+      width: 500px;
+      height: 298px;
+    }
+    @media (max-width: 640px) {
+      min-width: 350px;
+      min-height: 208px;
+      width: 350px;
+      height: 208px;
+    }
+    @media (max-width: 450px) {
+      min-width: 270px;
+      min-height: 160px;
+      width: 270px;
+      height: 160px;
+    }
+  }
+
+  &__Img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__leftImg2 {
+    position: absolute;
+    min-width: 535px;
+    min-height: 378px;
+    top: 1.75rem;
+    left: -2rem;
+    z-index: 10;
+
+    @media (max-width: 900px) {
+      min-width: 500px;
+      min-height: 298px;
+      width: 500px;
+      height: 298px;
+    }
+    @media (max-width: 640px) {
+      min-width: 350px;
+      min-height: 208px;
+      width: 350px;
+      height: 208px;
+      top: 1rem;
+      left: -1rem;
+    }
+    @media (max-width: 450px) {
+      min-width: 270px;
+      min-height: 160px;
+      width: 270px;
+      height: 160px;
+    }
+  }
+
+  &__right {
+    margin-left: 5rem;
+
+    @media (max-width: 1450px) {
+      margin-left: 3.5rem;
+    }
+    @media (max-width: 1240px) {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      margin-top: 5rem;
+      align-items: center;
+    }
+
+    .RightTitle {
+      line-height: 1.375;
+      font-size: 1.875rem;
+      font-weight: 700;
+      color: var(--primary-text-color);
+      margin-bottom: 0.75rem;
+      padding-left: 4rem;
+
+      @media (max-width: 1240px) {
+        padding-left: 0px;
+      }
+      @media (max-width: 640px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+    }
+
+    .RightImg1 {
+      position: relative;
+      display: flex;
+      min-width: 298px;
+      width: 298px;
+      min-height: 358px;
+      height: 358px;
+      cursor: pointer;
+      flex-direction: column;
+      overflow: hidden;
+      background-color: var(--bg-color);
+      background-clip: border-box;
+
+      @media (max-width: 640px) {
+        min-width: 220px;
+        width: 220px;
+        min-height: 266px;
+        height: 266px;
+      }
+    }
+  }
+}

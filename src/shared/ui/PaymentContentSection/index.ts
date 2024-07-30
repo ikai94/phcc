@@ -1,0 +1,1 @@
+export {PaymentContentSection} from './PaymentContentSection'

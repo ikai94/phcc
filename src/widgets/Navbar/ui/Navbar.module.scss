@@ -1,0 +1,90 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavAvatar {
+  height: 8rem /* 128px */;
+  aspect-ratio: 1 / 1;
+
+  @media (max-width: 570px) {
+    height: 6rem /* 96px */;
+  }
+}
+
+.NavSocial {
+  padding-top: 6px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 1rem;
+
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem /* 16px */;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__phoneWrapper {
+      display: flex;
+      border: 1px solid var(--accept-color);
+      padding-top: 0.75rem /* 12px */;
+      padding-bottom: 0.75rem /* 12px */;
+      padding-left: 1.25rem /* 20px */;
+      padding-right: 1.25rem /* 20px */;
+      margin-left: 2.25rem /* 36px */;
+      align-items: center;
+
+      img {
+        height: 1.375rem;
+        width: 1.375rem;
+      }
+    }
+
+    &__phoneNum {
+      margin-left: 0.5rem /* 8px */;
+      color: var(--inverted-primary-text-color);
+      text-decoration: none;
+      font-size: 1.25rem;
+    }
+  }
+  .NavLink {
+    color: var(--inverted-primary-text-color) /* #ffffff */;
+
+    &__List {
+      padding-left: 3.125rem;
+    }
+
+    &__link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.5;
+      text-decoration-line: none;
+      padding-bottom: 0.25rem /* 4px */;
+      color: var(--inverted-primary-text-color);
+      font-weight: 400;
+    }
+
+    &__span {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      height: 0.125rem /* 2px */;
+      background-color: var(--accept-color);
+    }
+
+    @media (min-width: 1240px) {
+      display: flex;
+      margin-left: 3rem /* 48px */;
+    }
+  }
+}

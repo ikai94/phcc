@@ -1,0 +1,62 @@
+.MainAdvantagesContent {
+  padding-bottom: 5rem;
+
+  .MainAdvantagesContentGrid {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    padding-bottom: 2.5rem;
+    grid-row-gap: 2.5rem;
+
+    @media (max-width: 1240px) {
+      grid-template-columns: repeat(2,350px);
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(2,300px);
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: repeat(1,300px);
+    }
+  }
+
+  .MainAdvantagesContentImgInner {
+    padding-bottom: 3.5rem;
+    padding-right: 1rem;
+
+    @media (max-width: 1240px) {
+      padding-left: 1rem;
+    }
+    &__image {
+      object-fit: contain;
+    }
+  }
+
+  .MainAdvantagesContentAllIcon {
+    max-width: 250px;
+  }
+
+  .MainAdvantagesContentBricks {
+    max-width: 700px;
+
+    @media (max-width: 800px) {
+      max-width: 500px;
+    }
+
+    @media (max-width: 640px) {
+      max-width: 300px;
+    }
+  }
+
+  .MainAdvantagesContentBricksBottom {
+    display: flex;
+
+    @media (max-width: 1240px) {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+

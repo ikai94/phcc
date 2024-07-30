@@ -1,0 +1,37 @@
+.Location {
+  margin-bottom: 2rem;
+
+  .LocationWidth {
+    position: relative;
+  }
+
+  .LocationBackTitle {
+    font-weight: 700;
+    position: absolute;
+    color: var(--bg-back-color);
+    font-size: 13rem;
+    top: -5rem;
+    left: 0;
+    padding-left: 11rem;
+    z-index: -10;
+
+    @media (max-width: 1240px) {
+      font-size: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+    @media (max-width: 1060px) {
+      font-size: 9rem;
+    }
+    @media (max-width: 900px) {
+      top: 0;
+      font-size: 4.5rem;
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

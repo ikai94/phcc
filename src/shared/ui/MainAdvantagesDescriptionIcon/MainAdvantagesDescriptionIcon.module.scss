@@ -1,0 +1,33 @@
+.MainAdvantagesDescriptionIcon {
+  display: flex;
+
+  .WrapperIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .WrapperIconImg {
+    width: 3.5rem;
+    aspect-ratio: 1;
+    @media (max-width: 900px) {
+      width: 2.5rem;
+    }
+  }
+
+  .Paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+    padding-left: 1rem;
+
+    @media (max-width: 900px) {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+  }
+}

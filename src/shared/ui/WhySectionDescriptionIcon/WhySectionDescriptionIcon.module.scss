@@ -1,0 +1,35 @@
+.WhySectionDescriptionIcon {
+  display: flex;
+
+  &__img {
+    width: 3.5rem;
+    height: 3.5rem;
+
+    @media (max-width: 900px) {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  &__paragraph {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  &__title {
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary-text-color);
+    margin-bottom: 1.25rem;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.1;
+    color: var(--primary-text-color);
+    max-width: 330px;
+  }
+}

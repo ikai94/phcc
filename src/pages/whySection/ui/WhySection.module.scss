@@ -1,0 +1,23 @@
+.whySection {
+  position: relative;
+  margin-bottom: 4rem;
+
+  .whySectionBackTitle {
+    position: absolute;
+    color: var(--bg-back-color);
+    font-size: 13rem;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    padding-left: 8rem;
+    z-index: -100;
+
+    @media (max-width: 1024px) {
+      font-size: 9rem;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

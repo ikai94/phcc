@@ -1,0 +1,1 @@
+export {MainAdvantagesDescriptionIcon} from './MainAdvantagesDescriptionIcon'
