@@ -1,6 +1,7 @@
 {
   "name": "personal-blog",
   "version": "1.0.0",
+  "homepage": "https://ikai94.github.io/phcc",
   "description": "personal blog",
   "main": "index.js",
   "scripts": {
