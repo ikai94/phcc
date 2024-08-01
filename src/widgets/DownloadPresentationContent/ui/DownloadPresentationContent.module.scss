@@ -1,116 +1,116 @@
 .DownloadPresentationContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-width: 0.5rem;
-  border-color: var(--accept-button-color);
-  border-radius: 0.5rem;
-  border-style: solid;
-  padding: 4.38rem 8rem 4.38rem 8rem;
-
-  @media (max-width: 940px) {
-    padding: 2.38rem 2rem 2.38rem 2rem;
-  }
-
-  &__title {
-    font-weight: 700;
-    font-size: 2.25rem;
-    line-height: 1.33;
-    color: var(--primary-title-color);
-    margin-bottom: 0.75rem;
-
-    @media (max-width: 660px) {
-      text-align: center;
-      font-size: 1.85rem;
-    }
-  }
-
-  &__paragraph {
-    font-size: 1.31rem;
-    line-height: 1.43;
-    font-weight: 400;
-    color: var(--primary-title-color);
-    margin-bottom: 2.25rem;
-
-    @media (max-width: 660px) {
-      text-align: center;
-    }
-
-    @media (max-width: 440px) {
-      font-size: 1rem;
-    }
-  }
-
-  &__gridInputs {
-    display: grid;
-    grid-template-columns: repeat(3,280px);
-    grid-column-gap: 1.2rem;
-
-    @media (max-width: 1080px) {
-      grid-template-columns: repeat(1,280px);
-      grid-row-gap: 1.2rem;
-    }
-  }
-
-  &__input1,
-  &__input2 {
-    width: 17.5rem;
-    height: 5.3rem;
-    font-size: 0.93rem;
-    line-height: 1.4;
-    color: var(--primary-accept-color);
-    padding-left: 3.63rem;
-    border-radius: 0.5rem;
-    background-color: #eff5fc;
-    background-repeat: no-repeat;
-    background-position: center left 1.31rem;
-
-    @media (max-width: 440px) {
-      width: 17rem;
-    }
-  }
-  &__input1:focus,
-  &__input2:focus {
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-    border-width: 2px;
-    border-color: var(--accept-button-color);
-  }
-
-  &__input1:hover,
-  &__input2:hover {
-    background-color: var(--primary-bgInput-color);
-  }
-
-  &__input1 {
-    background-image: url("../../../shared/assets/icons/user-icon.svg");
-  }
-
-  &__input2 {
-    background-image: url("../../../shared/assets/icons/phone-icon.svg");
-  }
-
-  &__button {
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 0.625rem 1.75rem 0.625rem 1.75rem;
-    width: 17.5rem;
-    height: 5.3rem;
-    font-size: 1.13rem;
-    line-height: 1.52;
-    color: var(--bg-color);
-    text-align: center;
+    align-items: center;
+    border-width: 0.5rem;
+    border-color: var(--accept-button-color);
     border-radius: 0.5rem;
-    background-color: var(--accept-button-color);
+    border-style: solid;
+    padding: 4.38rem 8rem 4.38rem 8rem;
 
-    @media (max-width: 440px) {
-      width: 17rem;
+    @media (max-width: 940px) {
+        padding: 2.38rem 2rem 2.38rem 2rem;
     }
-  }
-  &__button:focus {
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-  }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 1.33;
+        color: var(--primary-title-color);
+        margin-bottom: 0.75rem;
+
+        @media (max-width: 660px) {
+            text-align: center;
+            font-size: 1.85rem;
+        }
+    }
+
+    &__paragraph {
+        font-size: 1.31rem;
+        line-height: 1.43;
+        font-weight: 400;
+        color: var(--primary-title-color);
+        margin-bottom: 2.25rem;
+
+        @media (max-width: 660px) {
+            text-align: center;
+        }
+
+        @media (max-width: 440px) {
+            font-size: 1rem;
+        }
+    }
+
+    &__gridInputs {
+        display: grid;
+        grid-template-columns: repeat(3, 280px);
+        grid-column-gap: 1.2rem;
+
+        @media (max-width: 1080px) {
+            grid-template-columns: repeat(1, 280px);
+            grid-row-gap: 1.2rem;
+        }
+    }
+
+    &__input1,
+    &__input2 {
+        width: 17.5rem;
+        height: 5.3rem;
+        font-size: 0.93rem;
+        line-height: 1.4;
+        color: var(--primary-accept-color);
+        padding-left: 3.63rem;
+        border-radius: 0.5rem;
+        background-color: #eff5fc;
+        background-repeat: no-repeat;
+        background-position: center left 1.31rem;
+
+        @media (max-width: 440px) {
+            width: 17rem;
+        }
+    }
+    &__input1:focus,
+    &__input2:focus {
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        border-width: 2px;
+        border-color: var(--accept-button-color);
+    }
+
+    &__input1:hover,
+    &__input2:hover {
+        background-color: var(--primary-bgInput-color);
+    }
+
+    &__input1 {
+        background-image: url('../../../shared/assets/icons/user-icon.svg');
+    }
+
+    &__input2 {
+        background-image: url('../../../shared/assets/icons/phone-icon.svg');
+    }
+
+    &__button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.625rem 1.75rem 0.625rem 1.75rem;
+        width: 17.5rem;
+        height: 5.3rem;
+        font-size: 1.13rem;
+        line-height: 1.52;
+        color: var(--bg-color);
+        text-align: center;
+        border-radius: 0.5rem;
+        background-color: var(--accept-button-color);
+
+        @media (max-width: 440px) {
+            width: 17rem;
+        }
+    }
+    &__button:focus {
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+    }
 }

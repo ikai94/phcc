@@ -1,5 +1,5 @@
-import clsx from 'clsx'
-import * as cls from './PaymentContentSection.module.scss'
+import clsx from 'clsx';
+import * as cls from './PaymentContentSection.module.scss';
 
 interface PaymentContentSectionProps {
     className?: string;
@@ -9,17 +9,15 @@ interface PaymentContentSectionProps {
 }
 
 export const PaymentContentSection = (props: PaymentContentSectionProps) => {
-    const {className, src, text, alt} = props
+    const { className, src, text, alt } = props;
     return (
         <div className={clsx(cls.PaymentContentSection, className)}>
-                <img
-                    className={cls.PaymentContentSection__img}
-                    src={src}
-                    alt={alt}
-                />
-                <p className={cls.PaymentContentSection__text}>
-                    {text}
-                </p>
+            <img
+                className={cls.PaymentContentSection__img}
+                src={src}
+                alt={alt}
+            />
+            <p className={cls.PaymentContentSection__text}>{text}</p>
         </div>
-    )
-}
+    );
+};

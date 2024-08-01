@@ -1,19 +1,19 @@
 .PaymentContentSection {
-  max-width: 12.81rem;
+    max-width: 12.81rem;
 
-  &__img {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.63rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    &__img {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.63rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-  &__text {
-    font-size: 1.06rem;
-    font-weight: 700;
-    line-height: 1.1;
-    color: var(--primary-text-color);
-    text-align: center;
-  }
+    &__text {
+        font-size: 1.06rem;
+        font-weight: 700;
+        line-height: 1.1;
+        color: var(--primary-text-color);
+        text-align: center;
+    }
 }

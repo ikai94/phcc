@@ -1,5 +1,5 @@
-import clsx from 'clsx'
-import * as cls from './FooterSection.module.scss'
+import clsx from 'clsx';
+import * as cls from './FooterSection.module.scss';
 
 interface FooterSectionProps {
     className?: string;
@@ -8,10 +8,10 @@ interface FooterSectionProps {
 }
 
 export const FooterSection = (props: FooterSectionProps) => {
-    const {className, href, text} = props
+    const { className, href, text } = props;
     return (
         <a className={clsx(cls.FooterSection)} href={href}>
             {text}
         </a>
-    )
-}
+    );
+};

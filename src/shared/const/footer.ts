@@ -1,4 +1,4 @@
-import {IFooterContent} from "../types/types";
+import { IFooterContent } from '../types/types';
 
 export const footerObj: IFooterContent = {
     footerContent: [
@@ -7,4 +7,4 @@ export const footerObj: IFooterContent = {
         { text: 'Технологии', href: '#technology' },
         { text: 'Способы оплаты', href: '#payment' },
     ],
-}
+};

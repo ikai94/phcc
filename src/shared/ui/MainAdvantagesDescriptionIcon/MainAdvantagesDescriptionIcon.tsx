@@ -1,5 +1,5 @@
-import clsx from 'clsx'
-import * as cls from './MainAdvantagesDescriptionIcon.module.scss'
+import clsx from 'clsx';
+import * as cls from './MainAdvantagesDescriptionIcon.module.scss';
 
 interface MainAdvantagesDescriptionIconProps {
     className?: string;
@@ -8,20 +8,16 @@ interface MainAdvantagesDescriptionIconProps {
     alt: string;
 }
 
-export const MainAdvantagesDescriptionIcon = (props: MainAdvantagesDescriptionIconProps) => {
-    const {className, src, text, alt} = props
+export const MainAdvantagesDescriptionIcon = (
+    props: MainAdvantagesDescriptionIconProps,
+) => {
+    const { className, src, text, alt } = props;
     return (
         <div className={clsx(cls.MainAdvantagesDescriptionIcon)}>
-                <div className={cls.WrapperIcon}>
-                    <img
-                        className={cls.WrapperIconImg}
-                        src={src}
-                        alt={alt}
-                    />
-                </div>
-                <div className={clsx(cls.Paragraph, className)}>
-                    {text}
-                </div>
+            <div className={cls.WrapperIcon}>
+                <img className={cls.WrapperIconImg} src={src} alt={alt} />
+            </div>
+            <div className={clsx(cls.Paragraph, className)}>{text}</div>
         </div>
-    )
-}
+    );
+};

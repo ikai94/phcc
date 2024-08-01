@@ -1,16 +1,15 @@
 .Project {
-  background-color: var(--inverted-bg-color);
-  display: flex;
-  margin-bottom: 5.57rem;
-  z-index: -20;
-  @media (max-width: 570px) {
-    margin-bottom: 3rem;
-  }
-
-  &__width {
-    padding-bottom: 4rem;
+    background-color: var(--inverted-bg-color);
     display: flex;
-    flex-direction: column;
-  }
+    margin-bottom: 5.57rem;
+    z-index: -20;
+    @media (max-width: 570px) {
+        margin-bottom: 3rem;
+    }
 
+    &__width {
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
 }

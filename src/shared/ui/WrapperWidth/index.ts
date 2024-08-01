@@ -1,1 +1,1 @@
-export {WrapperWidth} from './WrapperWidth'
+export { WrapperWidth } from './WrapperWidth';

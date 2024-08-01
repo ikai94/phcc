@@ -1,1 +1,1 @@
-export {MainAdvantagesContent} from './ui/MainAdvantagesContent'
+export { MainAdvantagesContent } from './ui/MainAdvantagesContent';

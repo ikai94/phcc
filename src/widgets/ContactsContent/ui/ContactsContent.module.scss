@@ -1,116 +1,114 @@
 .ContactsContent {
-  display: flex;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-top: 6rem;
-
-  @media (max-width: 1340px) {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 4rem;
-  }
-
-  @media (max-width: 540px) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
-  }
-  
-  @media (max-width: 1000px) {
-    flex-direction: column-reverse;
-    padding-top: 1.5rem;
-  }
-
-
-  &__map {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 6rem;
 
-  &__inner {
-    display: flex;
-    flex-direction: column;
-    margin-left: 6.38rem;
-    margin-top: 3.5rem;
-
-    @media (max-width: 1080px) {
-      margin-left: 3.19rem;
-      margin-top: 1.5rem;
+    @media (max-width: 1340px) {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 4rem;
     }
 
     @media (max-width: 540px) {
-      margin-left: 0;
-      margin-top: 0;
-    }
-  }
-
-  &__title {
-    font-weight: 700;
-    font-size: 3rem;
-    color: var(--primary-text-color);
-    margin-bottom: 1.5rem;
-
-    @media (max-width: 1000px) {
-      text-align: center;
-    }
-  }
-
-  &__paragraph {
-    font-size: 1.13rem;
-    line-height: 1.1;
-    font-weight: 300;
-    margin-bottom: 1rem;
-
-    @media (max-width: 1000px) {
-      text-align: center;
-    }
-  }
-
-  &__imageSrc {
-    padding-left: 3.65rem;
-
-    @media (max-width: 1240px) {
-      padding-top: 1rem;
-      padding-left: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
     }
 
     @media (max-width: 1000px) {
-      padding-top: 0;
-      padding-left: 3.65rem;
+        flex-direction: column-reverse;
+        padding-top: 1.5rem;
     }
 
-    .img {
-      width: 177px;
-      height: 177px;
-
-      @media (max-width: 1240px) {
-        width: 137px;
-        height: 137px;
-      }
-
-      @media (max-width: 540px) {
-        width: 90px;
-        height: 90px;
-      }
-
-      @media (max-width: 440px) {
-        display: none;
-      }
-    }
-  }
-
-  &__right {
-    @media (max-width: 1240px) {
-      flex-direction: column;
+    &__map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    @media (max-width: 1000px) {
-      flex-direction: row;
-      padding-bottom: 2rem;
-      align-items: center;
-      justify-content: center;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.38rem;
+        margin-top: 3.5rem;
+
+        @media (max-width: 1080px) {
+            margin-left: 3.19rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 540px) {
+            margin-left: 0;
+            margin-top: 0;
+        }
     }
 
-  }
+    &__title {
+        font-weight: 700;
+        font-size: 3rem;
+        color: var(--primary-text-color);
+        margin-bottom: 1.5rem;
+
+        @media (max-width: 1000px) {
+            text-align: center;
+        }
+    }
+
+    &__paragraph {
+        font-size: 1.13rem;
+        line-height: 1.1;
+        font-weight: 300;
+        margin-bottom: 1rem;
+
+        @media (max-width: 1000px) {
+            text-align: center;
+        }
+    }
+
+    &__imageSrc {
+        padding-left: 3.65rem;
+
+        @media (max-width: 1240px) {
+            padding-top: 1rem;
+            padding-left: 0;
+        }
+
+        @media (max-width: 1000px) {
+            padding-top: 0;
+            padding-left: 3.65rem;
+        }
+
+        .img {
+            width: 177px;
+            height: 177px;
+
+            @media (max-width: 1240px) {
+                width: 137px;
+                height: 137px;
+            }
+
+            @media (max-width: 540px) {
+                width: 90px;
+                height: 90px;
+            }
+
+            @media (max-width: 440px) {
+                display: none;
+            }
+        }
+    }
+
+    &__right {
+        @media (max-width: 1240px) {
+            flex-direction: column;
+        }
+
+        @media (max-width: 1000px) {
+            flex-direction: row;
+            padding-bottom: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

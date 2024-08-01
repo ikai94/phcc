@@ -1,1 +1,1 @@
-export {LocationContent} from './ui/LocationContent'
+export { LocationContent } from './ui/LocationContent';

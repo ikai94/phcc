@@ -1,1 +1,1 @@
-export {Technology} from './ui/Technology'
+export { Technology } from './ui/Technology';

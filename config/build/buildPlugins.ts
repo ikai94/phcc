@@ -1,14 +1,14 @@
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import webpack from "webpack";
-import { WebpackPath } from "../types/config";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import webpack from 'webpack';
+import { WebpackPath } from '../types/config';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 interface buildPluginsOptions {
     paths: WebpackPath;
 }
 
 export function buildPlugins(
-    options: buildPluginsOptions
+    options: buildPluginsOptions,
 ): webpack.WebpackPluginInstance[] {
     const { paths } = options;
     const plugins = [
@@ -20,7 +20,6 @@ export function buildPlugins(
             filename: 'css/[name].[contenthash:8].css',
             chunkFilename: 'css/[name].[contenthash:8].css',
         }),
-
     ];
 
     return plugins;

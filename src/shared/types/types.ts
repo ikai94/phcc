@@ -1,83 +1,101 @@
 export interface IHeaderObj {
-  textBlock: string;
-  spanBlock: string;
+    textBlock: string;
+    spanBlock: string;
 }
 
 export interface IAboutProjectObj {
-  title: string;
-  text: string;
+    title: string;
+    text: string;
 }
 
 export interface IHeaderContent {
-  headerContentRight: IHeaderObj[]
+    headerContentRight: IHeaderObj[];
 }
 
 export interface IAboutProjectContent {
-  aboutProjectText: IAboutProjectObj[]
+    aboutProjectText: IAboutProjectObj[];
 }
 
 export interface IMainAdvantagesObj {
-  src: string;
-  text: string;
-  alt: string;
+    src: string;
+    text: string;
+    alt: string;
 }
 
 export interface IMainAdvantagesContent {
-  mainAdvantagesContentTop: IMainAdvantagesObj[];
-  mainAdvantagesContentBottom: IMainAdvantagesObj[];
+    mainAdvantagesContentTop: IMainAdvantagesObj[];
+    mainAdvantagesContentBottom: IMainAdvantagesObj[];
 }
 
 export interface IWhySectionObj {
-  src: string;
-  title: string;
-  text: string;
-  alt: string;
+    src: string;
+    title: string;
+    text: string;
+    alt: string;
 }
 
 export interface IWhySectionContent {
-  whySectionContent: IWhySectionObj[];
+    whySectionContent: IWhySectionObj[];
 }
 
 export interface ITechnologyObj {
-  src: string;
-  title: string;
-  text: string;
-  alt: string;
-  width: string;
-  height: string;
+    src: string;
+    title: string;
+    text: string;
+    alt: string;
+    width: string;
+    height: string;
 }
 
 export interface ITechnologyContent {
-  technologyContentLeft: ITechnologyObj[];
-  technologyContentRight: ITechnologyObj[];
+    technologyContentLeft: ITechnologyObj[];
+    technologyContentRight: ITechnologyObj[];
 }
 
 export interface IPaymentObj {
-  src: string;
-  text: string;
-  alt: string;
+    src: string;
+    text: string;
+    alt: string;
 }
 
 export interface IPaymentContent {
-  paymentContent: IPaymentObj[];
+    paymentContent: IPaymentObj[];
 }
 
 export interface IContactsObj {
-  src: string;
-  text: string;
-  alt: string;
-  href: string;
+    src: string;
+    text: string;
+    alt: string;
+    href: string;
 }
 
 export interface IContactsContent {
-  contactsContent: IContactsObj[];
+    contactsContent: IContactsObj[];
 }
 
 export interface IFooterObj {
-  text: string;
-  href: string;
+    text: string;
+    href: string;
 }
 
 export interface IFooterContent {
-  footerContent: IFooterObj[];
+    footerContent: IFooterObj[];
+}
+
+export interface IHeaderObj {
+    textBlock: string;
+    spanBlock: string;
+}
+
+export interface IHeaderContent {
+    headerContentRight: IHeaderObj[];
+}
+
+export interface IHeaderNavObj {
+    title: string;
+    href: string;
+}
+
+export interface IHeaderNavContent {
+    headerContent: IHeaderNavObj[];
 }

@@ -1,1 +1,1 @@
-export {PaymentContentSection} from './PaymentContentSection'
+export { PaymentContentSection } from './PaymentContentSection';

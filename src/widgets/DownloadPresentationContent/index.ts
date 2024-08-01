@@ -1,1 +1,1 @@
-export {DownloadPresentationContent} from './ui/DownloadPresentationContent'
+export { DownloadPresentationContent } from './ui/DownloadPresentationContent';

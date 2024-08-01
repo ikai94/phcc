@@ -1,1 +1,1 @@
-export {} from './ContactsSection'
+export {} from './ContactsSection';

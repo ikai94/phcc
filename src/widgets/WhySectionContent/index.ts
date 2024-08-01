@@ -1,1 +1,1 @@
-export {WhySectionContent} from './ui/WhySectionContent'
+export { WhySectionContent } from './ui/WhySectionContent';

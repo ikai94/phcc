@@ -1,25 +1,27 @@
-import { memo } from 'react'
-import clsx from 'clsx'
-import * as cls from './DownloadPresentationContent.module.scss'
-
+import { memo } from 'react';
+import clsx from 'clsx';
+import * as cls from './DownloadPresentationContent.module.scss';
 
 interface DownloadPresentationContentProps {
-    className?: string
+    className?: string;
 }
 
-export const DownloadPresentationContent = memo((props: DownloadPresentationContentProps) => {
-    const { className } = props
+export const DownloadPresentationContent = memo(
+    (props: DownloadPresentationContentProps) => {
+        const { className } = props;
 
-    return (
-        <div className={clsx(cls.DownloadPresentationContent, className)}>
-            <h2 className={cls.DownloadPresentationContent__title}>
-                Скачать презентацию
-            </h2>
-            <p className={cls.DownloadPresentationContent__paragraph}>
-                Оставьте свои контакты и мы вам вышлем
-            </p>
-            <form action="">
-                <div className={cls.DownloadPresentationContent__gridInputs}>
+        return (
+            <div className={clsx(cls.DownloadPresentationContent, className)}>
+                <h2 className={cls.DownloadPresentationContent__title}>
+                    Скачать презентацию
+                </h2>
+                <p className={cls.DownloadPresentationContent__paragraph}>
+                    Оставьте свои контакты и мы вам вышлем
+                </p>
+                <form action="">
+                    <div
+                        className={cls.DownloadPresentationContent__gridInputs}
+                    >
                         <input
                             className={cls.DownloadPresentationContent__input1}
                             type="text"
@@ -42,8 +44,9 @@ export const DownloadPresentationContent = memo((props: DownloadPresentationCont
                         >
                             Отправить
                         </button>
-                </div>
-            </form>
-        </div>
-    )
-})
+                    </div>
+                </form>
+            </div>
+        );
+    },
+);

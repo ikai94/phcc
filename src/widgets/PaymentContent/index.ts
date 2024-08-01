@@ -1,1 +1,1 @@
-export {PaymentContent} from './ui/PaymentContent'
+export { PaymentContent } from './ui/PaymentContent';

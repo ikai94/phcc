@@ -1,1 +1,1 @@
-export {WhySectionDescriptionIcon} from './WhySectionDescriptionIcon'
+export { WhySectionDescriptionIcon } from './WhySectionDescriptionIcon';

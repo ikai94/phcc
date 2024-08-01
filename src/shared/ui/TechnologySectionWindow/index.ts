@@ -1,1 +1,1 @@
-export {TechnologySectionWindow} from './TechnologySectionWindow'
+export { TechnologySectionWindow } from './TechnologySectionWindow';

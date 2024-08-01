@@ -1,1 +1,1 @@
-export {MainAdvantagesDescriptionIcon} from './MainAdvantagesDescriptionIcon'
+export { MainAdvantagesDescriptionIcon } from './MainAdvantagesDescriptionIcon';

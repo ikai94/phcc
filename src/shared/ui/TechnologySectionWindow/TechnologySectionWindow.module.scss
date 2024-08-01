@@ -1,29 +1,29 @@
 .TechnologySectionWindow {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 5rem;
-  max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    max-width: 500px;
 
-  @media (max-width: 770px) {
-    max-width: 100%;
-    align-items: center;
-  }
+    @media (max-width: 770px) {
+        max-width: 100%;
+        align-items: center;
+    }
 
-  &__img {
-    padding-bottom: 2rem;
-  }
+    &__img {
+        padding-bottom: 2rem;
+    }
 
-  &__title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--primary-text-color);
-    padding-bottom: 0.75rem;
-  }
+    &__title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--primary-text-color);
+        padding-bottom: 0.75rem;
+    }
 
-  &__paragraph {
-    font-size: 1.12rem;
-    line-height: 1.1;
-    font-weight: 300;
-    color: var(--primary-text-color);
-  }
+    &__paragraph {
+        font-size: 1.12rem;
+        line-height: 1.1;
+        font-weight: 300;
+        color: var(--primary-text-color);
+    }
 }

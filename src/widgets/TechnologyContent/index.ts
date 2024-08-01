@@ -1,1 +1,1 @@
-export {TechnologyContent} from './ui/TechnologyContent'
+export { TechnologyContent } from './ui/TechnologyContent';
